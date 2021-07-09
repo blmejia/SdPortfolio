@@ -53,10 +53,10 @@ body {
       .mobile-theme .landing-area-mobile .profile-mobile img {
         border-radius: 50%;
         border: solid 1px black; }
-      .mobile-theme .landing-area-mobile .profile-mobile #profile-text-mobile {
-        margin-top: 10%;
-        text-align: center;
-        width: 85%; }
+      .mobile-theme .landing-area-mobile .profile-mobile .profile-text {
+        margin-top: 5%;
+        text-align: justify;
+        width: 75%; }
   .mobile-theme .tabs {
     width: 100%;
     align-items: center; }
