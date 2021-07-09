@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My custom Bulma website</title>
     <link rel="stylesheet" href="css/mystyles.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/f0f7ade3a3.js" crossorigin="anonymous"></script>
    
   </head>
@@ -47,7 +48,8 @@
          </div>
 
 
-         <div class="tabs is-centered is-toggle">
+         <div class="tabs is-centered is-toggle" data-aos="fade-up"
+         data-aos-duration="1000">
             <ul>
               <li class="tab is-active" onclick="openTab(event, 'ecom')"><a>Films & Editorials</a></li>
               <li class="tab" onclick="openTab(event, 'other')"><a>Articles</a></li>
@@ -55,9 +57,11 @@
             </ul>
           </div>
 
-         <div class="ecommerce-projects-mobile content-tab" id='ecom'>
+         <div class="ecommerce-projects-mobile content-tab" id='ecom' data-aos="fade-up"
+         data-aos-duration="1000" >
            <div class="cards columns is-tablet">
-            <div class="card 1">
+            <div class="card 1" data-aos="fade-up"
+            data-aos-duration="1000">
                 <header class="card-header">
                   <p class="card-header-title">
                     Project 1
@@ -80,7 +84,8 @@
                   </footer>
               </div>
 
-              <div class="card 2">
+              <div class="card 2" data-aos="fade-up"
+              data-aos-duration="1000">
                 <header class="card-header">
                   <p class="card-header-title">
                     Project 2
@@ -103,7 +108,8 @@
                   </footer>
               </div>
 
-              <div class="card 3">
+              <div class="card 3" data-aos="fade-up"
+              data-aos-duration="1000">
                 <header class="card-header">
                   <p class="card-header-title">
                     Project 3
@@ -130,9 +136,11 @@
 
 
         
-         <div class="projects-mobile content-tab" id='other' style="display: none">
+         <div class="projects-mobile content-tab" id='other' style="display: none" data-aos="fade-up"
+         data-aos-duration="1000">
           <div class="cards columns">
-             <div class="card">
+             <div class="card" data-aos="fade-up"
+             data-aos-duration="1000">
                 <header class="card-header">
                   <p class="card-header-title">
                     Project 1
@@ -155,7 +163,8 @@
                   </footer>
               </div>
 
-              <div class="card 2">
+              <div class="card 2" data-aos="fade-up"
+              data-aos-duration="1000">
                 <header class="card-header">
                   <p class="card-header-title">
                     Project 2
@@ -178,7 +187,8 @@
                   </footer>
               </div>
 
-              <div class="card 3">
+              <div class="card 3" data-aos="fade-up"
+              data-aos-duration="1000">
                 <header class="card-header">
                   <p class="card-header-title">
                     Project 3
@@ -220,6 +230,9 @@
 
         }
         </script>
+        <script>
+            AOS.init();
+          </script>
         <script src="/main.js"></script>
   </body>
 </html>
