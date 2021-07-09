@@ -68,7 +68,8 @@ body {
         margin-top: 15px; }
   .mobile-theme .tabs {
     width: 100%;
-    align-items: center; }
+    align-items: center;
+    margin-top: 20%; }
   .mobile-theme .ecommerce-projects-mobile {
     height: auto;
     width: 100%;
