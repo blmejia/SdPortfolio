@@ -63,7 +63,8 @@ body {
       flex-wrap: wrap;
       height: auto; }
       .mobile-theme .landing-area-mobile .profile-text img {
-        border-radius: 15%; }
+        border-radius: 15%;
+        border: solid .5px black; }
       .mobile-theme .landing-area-mobile .profile-text .about {
         margin-top: 15px; }
   .mobile-theme .tabs {
