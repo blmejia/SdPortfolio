@@ -2,6 +2,10 @@
 body {
   margin: 5%; }
 
+.break {
+  flex-basis: 100%;
+  height: 0; }
+
 .mobile-theme {
   height: auto;
   width: 100%; }
@@ -24,10 +28,11 @@ body {
     align-items: center; }
     .mobile-theme .landing-area-mobile .profile-mobile {
       height: auto;
-      width: 100%;
+      width: fit-content;
       display: flex;
       justify-content: center;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      grid-template-rows: auto; }
       .mobile-theme .landing-area-mobile .profile-mobile .typewriter h1 {
         overflow: hidden;
         border-right: .15em solid black;
@@ -50,13 +55,13 @@ body {
     border-color: transparent; }
   50% {
     border-color: black; } }
-      .mobile-theme .landing-area-mobile .profile-mobile img {
-        border-radius: 50%;
-        border: solid 1px black; }
       .mobile-theme .landing-area-mobile .profile-mobile .profile-text {
-        margin-top: 5%;
-        text-align: justify;
-        width: 75%; }
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto; }
+        .mobile-theme .landing-area-mobile .profile-mobile .profile-text img {
+          border-radius: 10%; }
   .mobile-theme .tabs {
     width: 100%;
     align-items: center; }
