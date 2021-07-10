@@ -17,3 +17,20 @@ function openTab(evt, tabName){
     evt.currentTarget.className += " is-active";
 }
 
+    const openButton = document.querySelector("#btn");
+    const modal = document.querySelector('.modal');
+    const bg = document.querySelector(".modal-background");
+    const closeLabel = document.querySelector("#closeM");
+
+    btn.addEventListener("click", () => {
+
+        modal.classList.add("is-active");
+
+    })
+    bg.addEventListener('click', () => {
+        modal.classList.remove('is-active');
+    })
+
+    closeLabel.addEventListener('click', () => {
+        modal.classList.remove('is-active');
+    })

@@ -44,7 +44,7 @@
           <div class="modal-card">
             <header class="modal-card-head">
               <p class="modal-card-title">About me :')</p>
-              <button class="delete modal-close" aria-label="close"></button>
+              <button class="delete modal-close" id="closeM" aria-label="close"></button>
             </header>
             <section class="modal-card-body">
               <div class="title is-size-4">Focus and Passions</div>
@@ -87,7 +87,7 @@
                    
                 </div>
                 <div class="break"></div>
-                <div class="button about" id="btn">About Me</div>
+                <div class="button about" id="btn" onclick="openM(event)">About Me</div>
                    
                       
                 <div class="profile-text has-text-centered">
@@ -271,32 +271,9 @@
            var text = document.getElementById("text");
            text.classList.toggle("has-text-white-bis");
            
-
+          
         }
-              const modal = 
-                document.querySelector('.modal');
-          const btn = 
-                document.querySelector('#btn')
-          const close = 
-                document.querySelector('.modal-close')
         
-          btn.addEventListener('click',
-                              function () {
-            modal.style.display = 'block'
-          })
-        
-          close.addEventListener('click',
-                                function () {
-            modal.style.display = 'none'
-          })
-        
-          window.addEventListener('click',
-                                  function (event) {
-            if (event.target.className === 
-                'modal-background') {
-              modal.style.display = 'none'
-            }
-          })
         </script>
         <script>
             AOS.init();
