@@ -16,8 +16,8 @@
     <style>
      
         
-        .dark-mode {
-          background-color: black;
+        .dark-mode-text {
+          color: white;
           
 
         
@@ -38,6 +38,36 @@
                 <i  id="moon" class="far fa-moon fa-2x"></i>
              </div>
          </div>
+<!------MODAL------>
+         <div class="modal" id="modal">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">About me :')</p>
+              <button class="delete modal-close" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+              <div class="title is-size-4">Focus and Passions</div>
+              <p>I am multimedia journalist with experience creating digital content and short docu-series. In my work I am committed to introducing sociological concepts into my productions, being BIPOC I share a similar worldview and life experience with so many others that may not get the same opportunity to speak and share the realities of their lives. My work and productions allows me to bridge that gap and let our experiences be known to the world. </p>
+              
+              <br>
+              <div class="title is-size-4">Current work and Experience</div>
+              <p>Currently I am doing freelance social media management, through networking and sites like Fiverr I gain my clients. Throughout my time at Emory University and experiences through various internships and radio shows I became Well-versed in video editing and other programs, here are some that I use: </p>
+              <br>
+              <ul>
+                <li>Adobe Premier Pro</li>
+                <li>Final Cut Pro</li>
+                <li>Hitlfilm Pro</li>
+                <li>Adobe Photoshop</li>
+                <li>Canva</li>
+              </ul>
+            </section>
+            <footer class="modal-card-foot">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </footer>
+          </div>
+        </div>
+<!------MODAL------>
          <div class="landing-area-mobile " data-aos="fade-up"
          data-aos-duration="1000">
              <div class=" profile-mobile ">
@@ -45,7 +75,7 @@
                       <h1 class="has-text-dark" id="text">Shantell Dasilva.</h1>
                     </div>     
                     <div class="break"></div>
-                    <div class="subtitle has-text-centered">Multimedia Journalist & Social Media Strategist</div>
+                    <div class="subtitle has-text-centered" id="subtitle">Multimedia Journalist & Social Media Strategist</div>
                 </div>
 
                 <div class="break"></div>
@@ -57,23 +87,8 @@
                    
                 </div>
                 <div class="break"></div>
-                <div class="button about ">About Me</div>
-                    <div class="modal">
-                        <div class="modal-background"></div>
-                        <div class="modal-card">
-                          <header class="modal-card-head">
-                            <p class="modal-card-title">Modal title</p>
-                            <button class="delete" aria-label="close"></button>
-                          </header>
-                          <section class="modal-card-body">
-                            <!-- Content ... -->
-                          </section>
-                          <footer class="modal-card-foot">
-                            <button class="button is-success">Save changes</button>
-                            <button class="button">Cancel</button>
-                          </footer>
-                        </div>
-                      </div>
+                <div class="button about" id="btn">About Me</div>
+                   
                       
                 <div class="profile-text has-text-centered">
                     
@@ -258,6 +273,30 @@
            
 
         }
+              const modal = 
+                document.querySelector('.modal');
+          const btn = 
+                document.querySelector('#btn')
+          const close = 
+                document.querySelector('.modal-close')
+        
+          btn.addEventListener('click',
+                              function () {
+            modal.style.display = 'block'
+          })
+        
+          close.addEventListener('click',
+                                function () {
+            modal.style.display = 'none'
+          })
+        
+          window.addEventListener('click',
+                                  function (event) {
+            if (event.target.className === 
+                'modal-background') {
+              modal.style.display = 'none'
+            }
+          })
         </script>
         <script>
             AOS.init();

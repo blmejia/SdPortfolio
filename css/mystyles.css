@@ -6,6 +6,9 @@ body {
   flex-basis: 100%;
   height: 0; }
 
+.fa-linkedin {
+  color: #0E76A8; }
+
 .mobile-theme {
   height: auto;
   width: 100%; }
