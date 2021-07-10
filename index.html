@@ -18,7 +18,7 @@
         
         .dark-mode {
           background-color: black;
-          color: white;
+          
 
         
         }
@@ -42,7 +42,7 @@
          data-aos-duration="1000">
              <div class=" profile-mobile ">
                     <div class="typewriter">
-                      <h1 class="name is-size-4 has-text-weight-bold has-text-dark">Shantell Dasilva.</h1>
+                      <h1 class="has-text-dark" id="text">Shantell Dasilva.</h1>
                     </div>     
                     <div class="break"></div>
                     <div class="subtitle has-text-centered">Multimedia Journalist & Social Media Strategist</div>
@@ -252,9 +252,10 @@
      <script>
         function myFunction() {
            var ebody = document.body;
-           ebody.classList.toggle("dark-mode");
-
-           var moon = document.getElementById("moon").style.color = white;
+           ebody.classList.toggle("has-background-dark");
+           var text = document.getElementById("text");
+           text.classList.toggle("has-text-white-ter");
+           
 
         }
         </script>

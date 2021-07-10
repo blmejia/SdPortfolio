@@ -61,6 +61,7 @@
                   white-space: nowrap;
                   color: black;
                   font-weight: bold;
+                  font-size: 24px;
                  
               }
               @keyframes typing {
@@ -90,6 +91,7 @@
         img{
             border-radius: 15%;
             border: solid .5px black;
+            box-shadow: 0px 0px 12px -2px #000000;
            
         }
         .about{
@@ -104,7 +106,7 @@
  
     width: 100%;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 10%;
     
 }
 

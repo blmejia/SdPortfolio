@@ -44,7 +44,8 @@ body {
         height: auto;
         white-space: nowrap;
         color: black;
-        font-weight: bold; }
+        font-weight: bold;
+        font-size: 24px; }
 
 @keyframes typing {
   from {
@@ -64,13 +65,14 @@ body {
       height: auto; }
       .mobile-theme .landing-area-mobile .profile-text img {
         border-radius: 15%;
-        border: solid .5px black; }
+        border: solid .5px black;
+        box-shadow: 0px 0px 12px -2px #000000; }
       .mobile-theme .landing-area-mobile .profile-text .about {
         margin-top: 15px; }
   .mobile-theme .tabs {
     width: 100%;
     align-items: center;
-    margin-top: 20%; }
+    margin-top: 10%; }
   .mobile-theme .ecommerce-projects-mobile {
     height: auto;
     width: 100%;
