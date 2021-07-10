@@ -16,7 +16,7 @@ function openTab(evt, tabName){
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " is-active";
 }
-
+//MODAL
     const openButton = document.querySelector("#btn");
     const modal = document.querySelector('.modal');
     const bg = document.querySelector(".modal-background");
