@@ -1,4 +1,4 @@
-//tabs 
+//////////////////////tabs/////////////////////////////
 
 function openTab(evt, tabName){
     var i, x, tablinks;
@@ -16,7 +16,7 @@ function openTab(evt, tabName){
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " is-active";
 }
-//MODAL
+//////////////////////MODAL/////////////////////////////////
     const openButton = document.querySelector("#btn");
     const modal = document.querySelector('.modal');
     const bg = document.querySelector(".modal-background");
