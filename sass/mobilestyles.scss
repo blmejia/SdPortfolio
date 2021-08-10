@@ -1,4 +1,11 @@
-//line break spacing for flexbox, add to html as a div
+body{
+    background-color: #ff927a;
+    p{
+        color: white;
+    }
+}//line break spacing for flexbox, add to html as a div
+
+
 .break {
     flex-basis: 100%;
     height: 0;
@@ -15,6 +22,7 @@
 .mobile-theme{
     height: auto;
     width: 100%;
+    
 
 
 /////////////////////////////////////
@@ -153,6 +161,22 @@
     }
    
 }
+.social-media-tab{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content:  center;
+    flex-wrap: wrap;
+    .cards{
+        margin: 5%;
+        .card{
+            width: auto;
+            height: auto;
+            margin: 10px;
+        }
+    }
+}
+    
 ///////////////////////////////////////// 
 
 }

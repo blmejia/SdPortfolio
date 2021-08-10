@@ -1,0 +1,234 @@
+body {
+  background-color: #ff927a;
+}
+
+body p {
+  color: white;
+}
+
+.break {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 0;
+}
+
+.fa-linkedin {
+  color: #0E76A8;
+}
+
+#closeM {
+  color: black;
+}
+
+.mobile-theme {
+  height: auto;
+  width: 100%;
+}
+
+.mobile-theme .header-mobile {
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mobile-theme .header-mobile .icon {
+  height: auto;
+  width: auto;
+  z-index: 0;
+}
+
+.mobile-theme .header-mobile .icon .far {
+  color: black;
+}
+
+.mobile-theme .landing-area-mobile {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10%;
+}
+
+.mobile-theme .landing-area-mobile .profile-mobile {
+  height: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.mobile-theme .landing-area-mobile .profile-mobile .typewriter h1 {
+  overflow: hidden;
+  border-right: .15em solid black;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  -webkit-animation: typing 2.5s steps(25, end), blink-caret 0.5s step-end infinite;
+          animation: typing 2.5s steps(25, end), blink-caret 0.5s step-end infinite;
+  height: auto;
+  white-space: nowrap;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+.mobile-theme .landing-area-mobile .profile-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto;
+}
+
+.mobile-theme .landing-area-mobile .profile-text img {
+  border-radius: 15%;
+  border: solid .5px black;
+  -webkit-box-shadow: 0px 0px 12px -2px #000000;
+          box-shadow: 0px 0px 12px -2px #000000;
+}
+
+.mobile-theme .landing-area-mobile .profile-text .about {
+  margin-top: 15px;
+}
+
+.mobile-theme .tabs {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15%;
+}
+
+.mobile-theme .ecommerce-projects-mobile {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mobile-theme .ecommerce-projects-mobile .cards {
+  margin: 5%;
+}
+
+.mobile-theme .ecommerce-projects-mobile .cards .card {
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+
+.mobile-theme .projects-mobile {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mobile-theme .projects-mobile .cards {
+  margin: 5%;
+}
+
+.mobile-theme .projects-mobile .cards .card {
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+
+.mobile-theme .social-media-tab {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mobile-theme .social-media-tab .cards {
+  margin: 5%;
+}
+
+.mobile-theme .social-media-tab .cards .card {
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+/*# sourceMappingURL=mobilestyles.css.map */
