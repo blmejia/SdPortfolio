@@ -24,6 +24,10 @@ body{
     height: auto;
     width: 100%;
     background-color: #ff927a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
 
 
@@ -49,13 +53,14 @@ body{
 ////////////////////////////////////////////
 
 .landing-area-mobile{
+    margin-top: 10%;
     height: fit-content;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 10%;
+   // margin-bottom: 10%;
  
       .profile-mobile{
           
@@ -124,7 +129,7 @@ body{
  
     width: 100%;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 5%;
     
 }
 
@@ -168,7 +173,8 @@ body{
     width: 100%;
     display: flex;
     justify-content:  center;
-    flex-wrap: wrap;
+    //background-color: red;
+    //flex-wrap: wrap;
     .cards{
         margin: 5%;
         .card{

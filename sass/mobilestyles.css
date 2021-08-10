@@ -25,6 +25,17 @@ body p {
   height: auto;
   width: 100%;
   background-color: #ff927a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .mobile-theme .header-mobile {
@@ -49,6 +60,7 @@ body p {
 }
 
 .mobile-theme .landing-area-mobile {
+  margin-top: 10%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -64,7 +76,6 @@ body p {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 10%;
 }
 
 .mobile-theme .landing-area-mobile .profile-mobile {
@@ -162,7 +173,7 @@ body p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .mobile-theme .ecommerce-projects-mobile {
@@ -220,8 +231,6 @@ body p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .mobile-theme .social-media-tab .cards {
