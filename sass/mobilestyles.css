@@ -190,9 +190,7 @@ body {
 }
 
 .mobile-theme .ecommerce-projects-mobile .cards .card {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 500px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -200,9 +198,7 @@ body {
 
 .mobile-theme .ecommerce-projects-mobile .cards .card .card-image img {
   height: 100%;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: auto;
 }
 
 .mobile-theme .projects-mobile {
