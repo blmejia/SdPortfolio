@@ -191,8 +191,15 @@ body {
 
 .mobile-theme .ecommerce-projects-mobile .cards .card {
   width: auto;
-  height: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   margin: 10px;
+}
+
+.mobile-theme .ecommerce-projects-mobile .cards .card .card-image img {
+  height: auto;
+  width: auto;
 }
 
 .mobile-theme .projects-mobile {

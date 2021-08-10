@@ -143,8 +143,18 @@ body{
        margin: 5%;
         .card{
             width: auto;
-            height: auto;
+            height: fit-content;
             margin: 10px;
+
+            .card-image{
+                img{
+                    height: auto;
+                    width: auto;
+                }
+            }
+            footer{
+               
+            }
         }
     }
    
