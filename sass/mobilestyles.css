@@ -247,6 +247,7 @@ body {
 
 .mobile-theme .social-media-tab .cards .card footer {
   margin: 5%;
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
