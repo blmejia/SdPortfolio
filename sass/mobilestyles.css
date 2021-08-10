@@ -3,10 +3,6 @@ body {
   overflow-y: hidden;
 }
 
-body p {
-  color: white;
-}
-
 .break {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
@@ -241,5 +237,18 @@ body p {
   width: auto;
   height: auto;
   margin: 10px;
+}
+
+.mobile-theme .social-media-tab .cards .card footer {
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=mobilestyles.css.map */

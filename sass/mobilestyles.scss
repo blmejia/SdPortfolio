@@ -1,8 +1,6 @@
 body{
     background-color: #ff927a;
-    p{
-        color: white;
-    }
+    
     overflow-y: hidden;
 }//line break spacing for flexbox, add to html as a div
 
@@ -181,6 +179,12 @@ body{
             width: auto;
             height: auto;
             margin: 10px;
+            footer{
+                margin: 5%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         }
     }
 }
