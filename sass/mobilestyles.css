@@ -1,5 +1,6 @@
 body {
   background-color: #ff927a;
+  overflow-y: hidden;
 }
 
 body p {
@@ -23,6 +24,7 @@ body p {
 .mobile-theme {
   height: auto;
   width: 100%;
+  background-color: #ff927a;
 }
 
 .mobile-theme .header-mobile {

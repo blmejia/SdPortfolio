@@ -3,6 +3,7 @@ body{
     p{
         color: white;
     }
+    overflow-y: hidden;
 }//line break spacing for flexbox, add to html as a div
 
 
@@ -22,6 +23,7 @@ body{
 .mobile-theme{
     height: auto;
     width: 100%;
+    background-color: #ff927a;
     
 
 
